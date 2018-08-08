@@ -4,7 +4,7 @@ Puppet::Type.type(:aws_ssm_param).provide(:v2) do
   mk_resource_methods
 
   def self.region
-    Facter.value(:ec2_availability_zone)[0..-2]
+    Facter.value(:ec2_metadata)['placement']['availability-zone'][0..-2]
   end
 
   def self.ssm

@@ -1,6 +1,6 @@
 {
   "name": "andrewm3-aws_ssm_param",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "andrewm3",
   "summary": "This module provides a resource type to manage parameters in the AWS SSM Parameter Store.",
   "license": "Apache-2.0",
